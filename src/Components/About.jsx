@@ -1,6 +1,6 @@
 import React from "react";
 import pic3 from "../assets/img/img.jpg";
-import "./about.css"; // Import the CSS animation styles
+import "./About.css"; // Import the CSS animation styles
 
 function About() {
   return (

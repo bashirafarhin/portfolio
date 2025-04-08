@@ -1,5 +1,5 @@
 import React from "react";
-import "./marquee.css"; // Make sure to import or include these styles
+import "./Marquee.css"; // Make sure to import or include these styles
 
 function Marquee() {
   return (

@@ -13,27 +13,15 @@ function LandingPage() {
   }, []);
 
   return (
-    <div className="w-full h-screen bg-[#f1f1f1] flex items-center justify-between px-[5vw] overflow-hidden">
+    <div className="w-full h-screen bg-[##3F3B37] flex items-center justify-between px-[5vw] overflow-hidden">
       {/* Left Text Section */}
-      <div
-        className={`w-1/2 transition-all duration-1000 ease-out ${
-          visible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
-        }`}
-      >
-        <h1 className="text-[4vw] font-bold text-gray-900">
-          Full Stack Developer
-        </h1>
-        <p className="text-[1.3vw] mt-4 text-gray-600">
-          Crafting clean, scalable web apps with modern technologies.
-        </p>
+      <div className="w-1/2">
+        <h1>Bashira Farhin</h1>
+        <p>Full Stack Developer</p>
       </div>
 
       {/* Right Image Section */}
-      <div
-        className={`w-1/2 flex justify-center transition-all duration-1000 ease-out ${
-          visible ? "opacity-100 scale-100" : "opacity-0 scale-90"
-        }`}
-      >
+      <div className="w-1/2">
         <img
           src={pic3}
           alt="Developer"

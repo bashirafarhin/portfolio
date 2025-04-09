@@ -18,13 +18,6 @@ function About() {
       </div>
 
       <div className="w-full flex gap-10 pt-[2vw]">
-        <div className="w-1/2">
-          <h1 className="text-[3.2vw] font-medium">My Approach</h1>
-          <button className="group flex hover:bg-black gap-[2vw] items-center px-[2vw] py-[1.2vw] mt-[0.5vw] bg-zinc-900 rounded-full text-white transition-all duration-300">
-            READ MORE
-            <div className="group-hover:scale-150 transition-transform duration-300 rounded-full bg-white w-[0.8vw] h-[0.8vw]"></div>
-          </button>
-        </div>
         <div className="w-1/2 h-[60vh]">
           <img className="rounded-lg h-full object-cover" src={pic3} alt="Bashira Farhin" />
         </div>

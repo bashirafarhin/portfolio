@@ -11,19 +11,18 @@ import { SiLeetcode } from "react-icons/si";
 function Footer() {
   return (
     <div className="w-full h-full flex flex-col lg:flex-row justify-between gap-[5vw] py-[5vw] px-[4vw] bg-[#f1f1f1]">
-      {/* Left Section: Logo & Title */}
-      <div className="lg:w-1/2 w-full flex flex-col justify-between">
-        <div className="text-[6.5vw] font-bold tracking-tighter leading-none">
-          <h1 className="-mb-[1vw]">Bye</h1>
-        </div>
-        <svg
-          width="72"
-          height="30"
-          viewBox="0 0 72 30"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          {/* Your SVG Paths */}
+        <div className="lg:w-1/2 w-full flex flex-col justify-between">
+          <div className="text-[6.5vw] font-bold tracking-tighter leading-none">
+            <h1 className="-mb-[1vw]" style={{ fontFamily: "Parisienne, cursive" }}>Bye</h1>
+          </div>
+          <svg
+            width="72"
+            height="30"
+            viewBox="0 0 72 30"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            {/* Your SVG Paths */}
         </svg>
       </div>
 

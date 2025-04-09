@@ -4,7 +4,7 @@ import LandingPage from "./Components/LandingPage";
 import Marquee from "./Components/Marquee";
 import About from "./Components/About";
 import Eyes from "./Components/Eyes";
-import Featured from "./Components/Featured";
+import Projects from "./Components/Projects";
 import Cards from "./Components/Cards";
 import Footer from "./Components/Footer";
 import LocomotiveScroll from "locomotive-scroll";
@@ -18,7 +18,7 @@ const App = () => {
       <Marquee />
       <About />
       <Eyes />
-      <Featured />
+      <Projects />
       <Cards />
       <Footer />
     </div>

@@ -1,26 +1,26 @@
-import React from "react";
-import Navbar from "./Components/Navbar";
-import LandingPage from "./Components/LandingPage";
-import Marquee from "./Components/Marquee";
-import About from "./Components/About";
-import Eyes from "./Components/Eyes";
-import Projects from "./Components/Projects";
-import Cards from "./Components/Cards";
-import Footer from "./Components/Footer";
+import React, { lazy, Suspense } from "react";
+const Navbar = lazy(() => import("./Components/Navbar"));
+const LandingPage = lazy(() => import("./Components/LandingPage"));
+const About = lazy(() => import("./Components/About"));
+const Eyes = lazy(() => import("./Components/Eyes"));
+const Projects = lazy(() => import("./Components/Projects"));
+const Skills = lazy(() => import("./Components/Skills"));
+const Footer = lazy(() => import("./Components/Footer"));
 import LocomotiveScroll from "locomotive-scroll";
 
 const App = () => {
   const locomotiveScroll = new LocomotiveScroll();
   return (
     <div className="w-full bg-[#f1f1f1] h-screen text-black">
-      <Navbar />
-      <LandingPage />
-      <Marquee />
-      <About />
-      <Eyes />
-      <Projects />
-      <Cards />
-      <Footer />
+      <Suspense fallback={<div>Loading...</div>}>
+        <Navbar />
+        <LandingPage />
+        <Skills />
+        <About />
+        <Eyes />
+        <Projects />
+        <Footer />
+      </Suspense>
     </div>
   );
 };

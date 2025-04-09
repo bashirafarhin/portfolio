@@ -1,25 +1,24 @@
 import React from "react";
-import pic3 from "../assets/img.jpg";
-import "./About.css"; // Import the CSS animation styles
+import img from "../assets/img.jpg";
+import "./About.css";
 
 function About() {
   return (
-    <div className="w-full py-20 px-[4.5vw] bg-[#CDEA68] rounded-t-3xl">
-      {/* Animated Personal Section */}
-      <div className="fade-in mb-[4vw]">
-        <h2 className="text-[3vw] font-semibold mb-4">About Me</h2>
-        <p className="text-[1.3vw] leading-[2vw]">
-          I’m a Full Stack Developer currently pursuing Electrical Engineering from NSUT, Delhi.
-          <br /> I love building dynamic, responsive, and scalable web applications.
-          <br /> My strength lies in bridging design and backend logic to bring ideas to life.
-          <br /> I'm deeply passionate about solving real-world problems through code.
-          <br /> Constantly learning, experimenting, and leveling up my development skills.
-        </p>
-      </div>
-
-      <div className="w-full flex gap-10 pt-[2vw]">
-        <div className="w-1/2 h-[60vh]">
-          <img className="rounded-lg h-full object-cover" src={pic3} alt="Bashira Farhin" />
+    <div className="about-section">
+      <div className="about-container">
+        <div className="about-image">
+          <img src={img} alt="Bashira Farhin" />
+        </div>
+        <div className="about-text fade-in">
+          <h2>About Me</h2>
+          <p>
+            I’m a Full Stack Developer currently pursuing Electrical Engineering from NSUT (2025), Delhi.
+            <br /> Over the 4 years of my engineering journey, I’ve gathered strong core concepts of development.
+            <br /> I love building dynamic, responsive, and scalable web applications.
+            <br /> My strength lies in bridging design with backend logic to bring ideas to life.
+            <br /> I enjoy solving problems and turning challenges into opportunities.
+            <br /> Constantly learning, experimenting, and leveling up my development skills.
+          </p>
         </div>
       </div>
     </div>

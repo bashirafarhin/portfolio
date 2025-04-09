@@ -1,0 +1,6 @@
+<!-- public/arrow-cursor.svg -->
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 24 24" fill="none">
+  <circle cx="12" cy="12" r="11.5" stroke="#F2E9DC" stroke-width="1"/>
+  <path d="M8 16L16 8" stroke="#F2E9DC" stroke-width="1"/>
+  <path d="M12 8H16V12" stroke="#F2E9DC" stroke-width="1"/>
+</svg>

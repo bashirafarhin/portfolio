@@ -1,13 +1,60 @@
+.about-section {
+  width: 100%;
+  padding: 5vw;
+  background-color: #cdea68;
+}
+
+.about-container {
+  display: flex;
+  /* align-items: flex-start; */
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  /* background-color: blanchedalmond; */
+}
+
+.about-image {
+  flex: 1;
+  max-width: 45%;
+}
+
+.about-image img {
+  width: 70%;
+  height: 70%;
+  border-radius: 12px;
+}
+
+.about-text {
+  flex: 1;
+  max-width: 50%;
+  /* background-color: blue; */
+}
+
+.about-text h2 {
+  font-size: 2.5vw;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #1a1a1a;
+}
+
+.about-text p {
+  font-size: 1.1vw;
+  line-height: 2vw;
+  color: #1a1a1a;
+}
+
+/* Optional fade-in animation */
 .fade-in {
+  animation: fadeIn 1.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
     opacity: 0;
-    transform: translateY(50px);
-    animation: fadeInUp 1s ease-out forwards;
+    transform: translateY(30px);
   }
-  
-  @keyframes fadeInUp {
-    to {
-      opacity: 1;
-      transform: translateY(0);
-    }
+  to {
+    opacity: 1;
+    transform: translateY(0);
   }
-  
+}

@@ -1,0 +1,76 @@
+.landing-container {
+  width: 100%;
+  height: 100vh;
+  background-color: #EC6234;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 5vw;
+  overflow: hidden;
+}
+
+.custom-title {
+  font-family: "Underdog", system-ui;
+  font-size: 5vw;
+  font-weight: 700;
+  line-height: 97px;
+  color: #FBEFDF;
+}
+
+
+@keyframes revealText {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.text-reveal {
+  opacity: 0;
+  animation: revealText 1s ease forwards;
+}
+
+.delay-1 {
+  animation-delay: 0.5s;
+}
+
+.delay-2 {
+  animation-delay: 1s;
+}
+
+
+.landing-left {
+  width: 50%;
+}
+
+.landing-right {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+.landing-image {
+  width: 30vw;
+  height: 30vw;
+  object-fit: cover;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.3);
+}
+
+@keyframes scaleIn {
+  0% {
+    transform: scale(0);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+.animated-scale {
+  animation: scaleIn 1.5s ease-in-out forwards;
+}

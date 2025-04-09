@@ -1,31 +1,21 @@
-import React, { useEffect, useState } from "react";
-import pic3 from "../assets/img.jpg";
+import React from "react";
+import img from "../assets/ghibliimg.jpg";
+import "./LandingPage.css";
 
 function LandingPage() {
-  const [visible, setVisible] = useState(false);
-
-  useEffect(() => {
-    const timeout = setTimeout(() => {
-      setVisible(true);
-    }, 100); // delay to simulate "initial → animate"
-
-    return () => clearTimeout(timeout);
-  }, []);
 
   return (
-    <div className="w-full h-screen bg-[##3F3B37] flex items-center justify-between px-[5vw] overflow-hidden">
-      {/* Left Text Section */}
-      <div className="w-1/2">
-        <h1>Bashira Farhin</h1>
-        <p>Full Stack Developer</p>
+    <div className="landing-container">
+      <div className="landing-left">
+        <p className="custom-title text-reveal delay-1">Bashira Farhin</p>
+        <p className="custom-title text-reveal delay-2">Full Stack Developer</p>
       </div>
 
-      {/* Right Image Section */}
-      <div className="w-1/2">
+      <div className="landing-right">
         <img
-          src={pic3}
+          src={img}
           alt="Developer"
-          className="w-[22vw] h-[22vw] object-cover rounded-full border-4 border-black shadow-xl"
+          className="landing-image animated-scale"
         />
       </div>
     </div>

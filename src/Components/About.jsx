@@ -1,5 +1,5 @@
 import React from "react";
-import pic3 from "../assets/img/img.jpg";
+import pic3 from "../assets/img.jpg";
 import "./About.css"; // Import the CSS animation styles
 
 function About() {

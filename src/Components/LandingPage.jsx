@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import pic3 from "../assets/img/img.jpg";
+import pic3 from "../assets/img.jpg";
 
 function LandingPage() {
   const [visible, setVisible] = useState(false);

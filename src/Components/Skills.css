@@ -1,7 +1,5 @@
 .skills-container {
   width: 100%;
-  /* min-height: 100vh; */
-  /* padding: 2vw; */
   padding-bottom: 3vw;
   background-color: #004d43;
   overflow: hidden;
@@ -17,7 +15,6 @@
 .marquee {
   overflow: hidden;
   width: 100%;
-  /* background-color: #FBEFDF; */
 }
 
 .marquee-content {

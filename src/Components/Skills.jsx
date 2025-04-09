@@ -32,16 +32,22 @@ function Skills() {
     { icon: <SiNextdotjs color="#000000" />, label: "Next.js" },
     { icon: <SiPostgresql color="#336791" />, label: "PostgreSQL" },
   ];
-  
 
   return (
-    <div className="skills-container">
+    <div
+      data-scroll
+      data-scroll-section
+      data-scroll-speed=".2"
+      className="skills-container"
+    >
       <h2 className="skills-title">My Tech Stack</h2>
       <div className="marquee">
         <div className="marquee-content">
           {[...skills, ...skills].map((skill, index) => (
             <div key={index} className="skill-box">
-              <div className="skill-icon">{React.cloneElement(skill.icon, { size: "50" })}</div>
+              <div className="skill-icon">
+                {React.cloneElement(skill.icon, { size: "50" })}
+              </div>
               <span className="skill-label">{skill.label}</span>
             </div>
           ))}

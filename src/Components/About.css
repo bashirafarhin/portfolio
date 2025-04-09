@@ -6,11 +6,9 @@
 
 .about-container {
   display: flex;
-  /* align-items: flex-start; */
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
-  /* background-color: blanchedalmond; */
 }
 
 .about-image {
@@ -27,7 +25,6 @@
 .about-text {
   flex: 1;
   max-width: 50%;
-  /* background-color: blue; */
 }
 
 .about-text h2 {
@@ -43,7 +40,6 @@
   color: #1a1a1a;
 }
 
-/* Optional fade-in animation */
 .fade-in {
   animation: fadeIn 1.5s ease-in-out;
 }

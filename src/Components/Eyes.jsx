@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import "./Eyes.css";
 
 function Eyes() {
   const [rotate, setRotate] = useState(0);
@@ -16,31 +17,23 @@ function Eyes() {
     };
 
     window.addEventListener("mousemove", handleMouseMove);
-
     return () => window.removeEventListener("mousemove", handleMouseMove);
   }, []);
 
   return (
-    <div className="eyes w-full h-screen overflow-hidden">
-      <div
-        data-scroll
-        data-scroll-speed="-.7"
-        className="relative w-full h-full bg-cover bg-center bg-[url('https://ochi.design/wp-content/uploads/2022/05/Top-Viewbbcbv-1-scaled.jpg')]"
-      >
-        <div className="absolute flex gap-10 top-1/2 left-1/2 -translate-x-[50%] -translate-y-[50%]">
+    <div className="eyes">
+      <div data-scroll data-scroll-speed="-.7" className="eyes-bg">
+        <div className="eyes-container">
           {[1, 2].map((_, index) => (
-            <div
-              key={index}
-              className="flex items-center justify-center w-[15vw] h-[15vw] rounded-full bg-zinc-100"
-            >
-              <div className="relative w-2/3 h-2/3 rounded-full bg-zinc-900">
+            <div key={index} className="eye">
+              <div className="eye-ball">
                 <div
+                  className="eye-pupil"
                   style={{
                     transform: `translate(-50%, -50%) rotate(${rotate}deg)`,
                   }}
-                  className="line absolute top-1/2 left-1/2 -translate-x-[50%] -translate-y-[50%] w-full h-[2.8vw]"
                 >
-                  <div className="w-[2vw] h-[2vw] rounded-full bg-zinc-100"></div>
+                  <div className="eye-center" />
                 </div>
               </div>
             </div>

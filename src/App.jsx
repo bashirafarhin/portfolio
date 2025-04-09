@@ -1,4 +1,4 @@
-import React, { lazy, Suspense } from "react";
+import React, { useEffect, lazy, Suspense } from "react";
 const Navbar = lazy(() => import("./Components/Navbar"));
 const LandingPage = lazy(() => import("./Components/LandingPage"));
 const About = lazy(() => import("./Components/About"));
@@ -9,9 +9,11 @@ const Footer = lazy(() => import("./Components/Footer"));
 import LocomotiveScroll from "locomotive-scroll";
 
 const App = () => {
+
   const locomotiveScroll = new LocomotiveScroll();
+
   return (
-    <div className="w-full bg-[#f1f1f1] h-screen text-black">
+    <div>
       <Suspense fallback={<div>Loading...</div>}>
         <Navbar />
         <LandingPage />

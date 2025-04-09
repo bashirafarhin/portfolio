@@ -3,9 +3,14 @@ import img from "../assets/ghibliimg.jpg";
 import "./LandingPage.css";
 
 function LandingPage() {
-
   return (
-    <div className="landing-container">
+    <div
+      data-scroll
+      data-scroll-section
+      // data-scroll-speed="-.2"
+      data-scroll-position="-3"
+      className="landing-container"
+    >
       <div className="landing-left">
         <p className="custom-title text-reveal delay-1">Bashira Farhin</p>
         <p className="custom-title text-reveal delay-2">Full Stack Developer</p>

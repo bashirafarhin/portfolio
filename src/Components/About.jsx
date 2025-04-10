@@ -10,7 +10,7 @@ function About() {
             <div className="about-education">
               <p className="reveal-text">10th, Jamia Millia Islamia, 77.4 %</p>
               <p className="reveal-text">12th, Jamia Millia Islamia, 84.6 %</p>
-              <p className="reveal-text">College, Netaji Subhas University Of Technology, 8.5 CGPA</p>
+              <p className="reveal-text">College, Netaji Subhas University Of Technology, 7.04 CGPA upto 7th sem</p>
             </div>
           </div>
         </div>

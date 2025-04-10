@@ -1,5 +1,4 @@
 import React from "react";
-import img from "../assets/img.jpg";
 import "./About.css";
 
 function About() {
@@ -7,7 +6,7 @@ function About() {
     <div className="about-section">
       <div className="about-container">
         <div className="about-image">
-          <img src={img} alt="Bashira Farhin" />
+          <img src="./img.jpg" alt="Bashira Farhin" />
         </div>
         <div className="about-text fade-in">
           <h2>About Me</h2>

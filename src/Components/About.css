@@ -1,7 +1,8 @@
 .about-section {
   width: 100%;
   padding: 5vw;
-  background-color: #cdea68;
+  /* background-color: #cdea68; */
+  color: #FBEFDF;
 }
 
 .about-container {
@@ -31,13 +32,13 @@
   font-size: 2.5vw;
   font-weight: 600;
   margin-bottom: 20px;
-  color: #1a1a1a;
+  /* color: #1a1a1a; */
 }
 
 .about-text p {
   font-size: 1.1vw;
   line-height: 2vw;
-  color: #1a1a1a;
+  /* color: #1a1a1a; */
 }
 
 .fade-in {

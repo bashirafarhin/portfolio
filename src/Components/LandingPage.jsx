@@ -1,14 +1,14 @@
 import React from "react";
-import img from "../assets/ghibliimg.jpg";
 import "./LandingPage.css";
 
 function LandingPage() {
   return (
     <div
       data-scroll
-      data-scroll-section
+      // data-scroll-section
       // data-scroll-speed="-.2"
-      data-scroll-position="-3"
+      data-scroll-speed="0.5"
+      // data-scroll-position="-3"
       className="landing-container"
     >
       <div className="landing-left">
@@ -18,7 +18,7 @@ function LandingPage() {
 
       <div className="landing-right">
         <img
-          src={img}
+          src="./ghibliimg.jpg"
           alt="Developer"
           className="landing-image animated-scale"
         />

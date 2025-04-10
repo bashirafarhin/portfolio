@@ -26,7 +26,6 @@
 .skill-box {
   min-width: 200px;
   height: 150px;
-  /* background-color: hsl(0, 0%, 13%); */
   color: white;
   border-radius: 12px;
   margin: 0 1vw;
@@ -35,7 +34,18 @@
   align-items: center;
   justify-content: center;
   flex-shrink: 0;
+
+  border: 2px solid transparent;
+  transition: border 0.3s ease, box-shadow 0.3s ease;
 }
+
+/* Glowing effect on hover */
+.skill-box:hover {
+  border: 2px solid rgba(255, 255, 255, 0.6);
+  box-shadow: 0 0 12px rgba(255, 255, 255, 0.4),
+              0 0 24px rgba(255, 255, 255, 0.2);
+}
+
 
 .skill-icon {
   margin-bottom: 10px;

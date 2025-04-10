@@ -26,10 +26,6 @@ const socialLinks = [
     href: "https://facebook.com",
     icon: <FaFacebook className="icon" style={{ color: "#1877F2" }} />,
   },
-  // {
-  //   href: "https://leetcode.com/u/bashirafarhin/",
-  //   icon: <SiLeetcode className="icon" style={{ color: "#FFA116" }} />,
-  // },
   {
     href: "mailto:farhinbashira@gmail.com",
     icon: <FaEnvelope className="icon" style={{ color: "#1DA1F2" }} />,
@@ -46,7 +42,7 @@ function Footer() {
       <div className="footer-right">
         <div className="footer-socials">
           {socialLinks.map((link, index) => (
-            <div className="glowing-box"><a key={index} href={link.href} target="_blank" rel="noreferrer">
+            <div key={index} className="glowing-box"><a href={link.href} target="_blank" rel="noreferrer">
             {link.icon}
           </a></div>
           ))}

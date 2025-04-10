@@ -44,8 +44,9 @@
 }
 
 .project-image {
-  flex: 1;
+  /* flex: 1; */
   max-width: 40vw;
+  height: 50vh;
   transition: transform 0.3s ease;
 }
 

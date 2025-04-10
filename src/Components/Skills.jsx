@@ -20,16 +20,16 @@ import "./Skills.css";
 function Skills() {
   const skills = [
     { icon: <SiMongodb color="#47A248" />, label: "MongoDB" },
-    { icon: <SiExpress color="#000000" />, label: "Express" },
+    { icon: <SiExpress color="#336791" />, label: "Express" },
     { icon: <FaReact color="#61DBFB" />, label: "React" },
     { icon: <FaNodeJs color="#339933" />, label: "Node.js" },
     { icon: <SiRedux color="#764ABC" />, label: "Redux Toolkit" },
-    { icon: <SiSocketdotio color="#010101" />, label: "WebSocket" },
+    { icon: <SiSocketdotio color="#E34F26" />, label: "WebSocket" },
     { icon: <SiTailwindcss color="#06B6D4" />, label: "Tailwind CSS" },
     { icon: <FaHtml5 color="#E34F26" />, label: "HTML" },
     { icon: <FaCss3Alt color="#1572B6" />, label: "CSS" },
     { icon: <FaBootstrap color="#7952B3" />, label: "Bootstrap" },
-    { icon: <SiNextdotjs color="#000000" />, label: "Next.js" },
+    { icon: <SiNextdotjs color="#339933" />, label: "Next.js" },
     { icon: <SiPostgresql color="#336791" />, label: "PostgreSQL" },
   ];
 

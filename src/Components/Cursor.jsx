@@ -20,7 +20,7 @@ const Cursor = () => {
         x: prev.x + (mouse.x - prev.x) * 0.1,
         y: prev.y + (mouse.y - prev.y) * 0.1,
       }));
-    }, 16); // ~60fps
+    }, 4); // ~60fps
 
     return () => clearInterval(interval);
   }, [mouse]);

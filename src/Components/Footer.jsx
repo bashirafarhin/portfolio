@@ -46,9 +46,9 @@ function Footer() {
       <div className="footer-right">
         <div className="footer-socials">
           {socialLinks.map((link, index) => (
-            <a key={index} href={link.href} target="_blank" rel="noreferrer">
-              {link.icon}
-            </a>
+            <div className="glowing-box"><a key={index} href={link.href} target="_blank" rel="noreferrer">
+            {link.icon}
+          </a></div>
           ))}
         </div>
       </div>

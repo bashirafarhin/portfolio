@@ -10,7 +10,7 @@ const Navbar = () => {
           download
           className="resume-link"
         >
-          <h1 className="glitch-text">Resume</h1>
+          <h1 className="tilt-animation">Resume</h1>
         </a>
       </div>
     </div>

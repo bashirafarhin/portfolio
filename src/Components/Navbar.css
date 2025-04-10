@@ -4,7 +4,6 @@
   width: 100%;
   padding: 1.25rem 4.5vw;
   color: white;
-  /* background-color: aqua; */
 }
 
 .links {
@@ -20,9 +19,33 @@
 .resume-link {
   text-decoration: none;
   color: inherit;
-  transition: transform 0.2s ease-in-out;
+  font-size: 1.5rem;
 }
 
-.resume-link:hover {
-  transform: scale(1.5);
+.tilt-animation {
+  display: inline-block;
+  transform-origin: center;
+  animation: tiltInfinite 2.5s infinite ease-in-out;
 }
+
+@keyframes tiltInfinite {
+  0% {
+    transform: rotate(0deg);
+  }
+  10% {
+    transform: rotate(-10deg);
+  }
+  20% {
+    transform: rotate(0deg);
+  }
+  30% {
+    transform: rotate(10deg);
+  }
+  40% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+

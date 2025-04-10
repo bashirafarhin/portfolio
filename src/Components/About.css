@@ -1,8 +1,8 @@
 .about-section {
-  width: 100%;
+  width: 80%;
   padding: 5vw;
-  /* background-color: #cdea68; */
   color: #FBEFDF;
+  margin: 0 auto;
 }
 
 .about-container {
@@ -10,17 +10,6 @@
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
-}
-
-.about-image {
-  flex: 1;
-  max-width: 45%;
-}
-
-.about-image img {
-  width: 70%;
-  height: 70%;
-  border-radius: 12px;
 }
 
 .about-text {
@@ -35,21 +24,22 @@
   /* color: #1a1a1a; */
 }
 
-.about-text p {
+.about-text p, .about-education p {
   font-size: 1.1vw;
   line-height: 2vw;
-  /* color: #1a1a1a; */
 }
 
-.fade-in {
-  animation: fadeIn 1.5s ease-in-out;
+.reveal-line {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: revealUp 1s ease-out forwards;
 }
 
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-    transform: translateY(30px);
-  }
+.line-1 { animation-delay: 0.5s; }
+.line-2 { animation-delay: 1s; }
+.line-3 { animation-delay: 1.5s; }
+
+@keyframes revealUp {
   to {
     opacity: 1;
     transform: translateY(0);

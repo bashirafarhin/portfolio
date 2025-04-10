@@ -1,6 +1,6 @@
 .skills-container {
   width: 100%;
-  background-color: #004d43;
+  /* background-color: #004d43; */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -26,7 +26,7 @@
 .skill-box {
   min-width: 200px;
   height: 150px;
-  background-color: hsl(0, 0%, 13%);
+  /* background-color: hsl(0, 0%, 13%); */
   color: white;
   border-radius: 12px;
   margin: 0 1vw;

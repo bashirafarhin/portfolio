@@ -46,7 +46,7 @@ function Skills() {
           {[...skills, ...skills].map((skill, index) => (
             <div key={index} className="skill-box">
               <div className="skill-icon">
-                {React.cloneElement(skill.icon, { size: "50" })}
+                {React.cloneElement(skill.icon, { size: "80" })}
               </div>
               <span className="skill-label">{skill.label}</span>
             </div>

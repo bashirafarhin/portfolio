@@ -1,16 +1,17 @@
 .landing-container {
-  width: 100%;
+  width: 90%;
   height: 100vh;
-  background-color: #EC6234;
+  /* background-color: #EC6234; */
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 0 5vw;
+  margin: 0 auto;
   /* overflow: hidden; */
 }
 
 .custom-title {
-  font-family: "Underdog", system-ui;
+  /* font-family: "Underdog", system-ui; */
   font-size: 5vw;
   font-weight: 700;
   line-height: 97px;

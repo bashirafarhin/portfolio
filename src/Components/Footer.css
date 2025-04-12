@@ -38,7 +38,6 @@
   transition: border 0.3s ease, box-shadow 0.3s ease;
 }
 
-/* White glowing effect on hover */
 .glowing-box:hover {
   border: 2px solid rgba(255, 255, 255, 0.6);
   box-shadow: 0 0 12px rgba(255, 255, 255, 0.4),

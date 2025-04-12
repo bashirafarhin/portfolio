@@ -32,6 +32,7 @@
   align-items: center;
   gap: 40px;
   flex-wrap: wrap;
+  border-radius: 5px;
   transition: transform 0.3s ease, box-shadow 0.3s ease, border 0.3s ease;
 }
 
@@ -44,7 +45,6 @@
 }
 
 .project-image {
-  /* flex: 1; */
   max-width: 40vw;
   height: 50vh;
   transition: transform 0.3s ease;

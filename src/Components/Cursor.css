@@ -6,7 +6,6 @@
   z-index: 9999;
 }
 
-/* Outer glow ring */
 .cursor-glow {
   width: 100px;
   height: 100px;
@@ -18,7 +17,6 @@
     0 0 30px rgba(255, 255, 255, 0.4);
 }
 
-/* Small center dot */
 .cursor-dot {
   width: 15px;
   height: 15px;

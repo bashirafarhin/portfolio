@@ -12,14 +12,17 @@
   color: #FBEFDF;
 }
 
-.marquee {
+.skills {
+  display: flex;
+  overflow: hidden;
   width: 100%;
   margin-bottom: 2vw;
 }
 
-.marquee-content {
+.skills-content {
   display: flex;
-  animation: scroll 10s linear infinite;
+  width: max-content;
+  animation: scroll 30s linear infinite;
 }
 
 .skill-box {

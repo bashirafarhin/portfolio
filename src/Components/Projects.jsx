@@ -1,10 +1,7 @@
 import React from "react";
 import "./Projects.css";
 
-
-
 function Projects() {
-
   const projects = [
     {
       name: "AI CAREER COACH",
@@ -62,19 +59,23 @@ function Projects() {
         <h1>Projects</h1>
       </div>
 
-      <div className="projects-list">
+      <div className="project-list">
         {projects.map((project, index) => (
+          <a
+          href={project.link}
+          // target="_blank"
+          // rel="noopener noreferrer"
+        >
           <div key={index} className="project-card">
-            <div className="project-image">
-              <a className="project-hover-area" href={project.link} target="_blank" rel="noopener noreferrer">
+              <div className="project-image">
                 <img src={project.image} alt={project.name} />
-              </a>
-            </div>
-            <div className="project-info">
-              <h2>{project.name}</h2>
-              <p>{project.desc}</p>
-            </div>
+              </div>
+              <div className="project-info">
+                <h2>{project.name}</h2>
+                <p>{project.desc}</p>
+              </div>
           </div>
+          </a>
         ))}
       </div>
     </div>

@@ -41,8 +41,8 @@ function Skills() {
       className="skills-container"
     >
       <h2 className="skills-title">My Tech Stack</h2>
-      <div className="marquee">
-        <div className="marquee-content">
+      <div className="skills">
+        <div className="skills-content">
           {[...skills, ...skills].map((skill, index) => (
             <div key={index} className="skill-box">
               <div className="skill-icon">

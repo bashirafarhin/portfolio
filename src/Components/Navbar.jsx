@@ -6,7 +6,7 @@ const Navbar = () => {
     <div className="navbar">
       <div className="links">
         <a
-          href="https://drive.google.com/file/d/1wQSFRC_rOeqd6mUDgOJQV0JCFokIxfhq/view?usp=sharing"
+          href="https://drive.google.com/file/d/1a1WIii_-eVKsqDJietyqJoNjpiOi-lqH/view?usp=sharing"
           download
           className="resume-link"
         >
